@@ -1,0 +1,23 @@
+info(
+	title: "官方认证"
+	desc: "官方认证"
+	author: "sunguangyong"
+	email: "sunguangyong@cointiger.com"
+	version: "v1"
+)
+
+type (
+	DemoRequest  struct{}
+	DemoResponse struct{}
+)
+
+// 官方认证
+service apis {
+	
+	@doc(
+		summary: "下拉框"
+	)
+	@handler drupdown
+	post /api/demo/verify (DemoRequest) returns (DemoResponse)
+	
+}
