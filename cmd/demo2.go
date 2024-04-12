@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/Masterminds/squirrel"
 	_ "github.com/go-sql-driver/mysql"
 )

@@ -1,10 +1,11 @@
 package svc
 
 import (
+	"go-zero-example/model"
+
 	"github.com/zeromicro/go-zero/core/stores/mon"
 	"github.com/zeromicro/go-zero/core/stores/redis"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
-	"go-zero-example/model"
 )
 
 type ServiceContext struct {

@@ -3,10 +3,11 @@ package handler
 import (
 	"net/http"
 
-	"github.com/zeromicro/go-zero/rest/httpx"
 	"go-zero-example/app/demo/api/internal/logic"
 	"go-zero-example/app/demo/api/internal/svc"
 	"go-zero-example/app/demo/api/internal/types"
+
+	"github.com/zeromicro/go-zero/rest/httpx"
 )
 
 func drupdownHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {

@@ -1,9 +1,10 @@
 package svc
 
 import (
-	"github.com/zeromicro/go-zero/core/stores/mon"
 	"go-zero-example/app/demo/api/internal/config"
 	"go-zero-example/common"
+
+	"github.com/zeromicro/go-zero/core/stores/mon"
 )
 
 type ServiceContext struct {
